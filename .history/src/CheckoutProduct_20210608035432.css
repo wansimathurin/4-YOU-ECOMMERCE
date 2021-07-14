@@ -1,0 +1,23 @@
+.CheckoutProduct{
+    display:flex;
+}
+.CheckoutProduct__img{
+    object-fit:contain;
+    width:180px;
+    height:180px;
+}
+.CheckoutProduct__info{
+    padding-left:20px;
+}
+.fas{
+    color: #f49432;
+}
+.CheckoutProduct__info>button{
+    background-color:#f49432;
+    border:1px solid;
+    margin-top:10px;
+    color:#000;
+    padding:5px;
+    cursor:pointer;
+}
+CheckoutProduct__tittle

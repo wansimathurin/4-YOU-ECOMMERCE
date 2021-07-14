@@ -1,0 +1,8 @@
+.CheckoutProduct{
+    display:flex;
+}
+.CheckoutProduct__img{
+    object-fit:contain;
+    width:180px;
+    he
+}
