@@ -1,5 +1,4 @@
-import Banner  from "./Banner.jpg";
-import video  from "./video.mp4";
+
 import React from 'react';
 import Product from "./Product"
 import "./Home.css";
@@ -7,6 +6,7 @@ import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Home() {
+     
     return (
         <div className="home">
              <Carousel 
@@ -33,16 +33,16 @@ function Home() {
             </Carousel>
         <div className="home__row row">
               <Product
-                    id="12321341"
+                    id="12321391"
                     title="Oculus Quest"
                     price={3500}
                     rating={5}
                     image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Dash_Oculus_1x._SY304_CB667158353_.jpg"
+                    link="/Game"
                     />
                        <Product 
                     id="12321341"
-                    title="
-                    Acer R240HY bidx 23.8-Inch IPS HDMI DVI VGA (1920 x 1080) Widescreen Monitor "
+                    title="Acer R240HY bidx 23.8-Inch IPS HDMI DVI VGA (1920 x 1080) Widescreen Monitor "
                     price={3500}
                     rating={5}
                     image="https://images-na.ssl-images-amazon.com/images/I/519rzl-wIQL.jpg"
