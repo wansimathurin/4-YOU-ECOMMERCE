@@ -1,8 +1,8 @@
 {
     "builds": [
       {
-        "src": "nuxt.config.js",
-        "use": "@nuxtjs/vercel-builder",
+        "src": "react.config.js",
+        "use": "@reactjs/vercel-builder",
         "config": {}
       }
     ]
