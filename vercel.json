@@ -1,9 +1,0 @@
-{
-    "builds": [
-      {
-        "src": "react.config.js",
-        "use": "@reactjs/vercel-builder",
-        "config": {}
-      }
-    ]
-  }
