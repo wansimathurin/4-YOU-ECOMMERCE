@@ -1,0 +1,11 @@
+.footer-area{
+    background-color:#051937;
+    color: #fff;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    color: #f82249;
+}

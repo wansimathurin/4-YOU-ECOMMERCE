@@ -8,6 +8,7 @@ import Game from "./Components/Game";
 import {auth} from "./firebase";
 import { useStateValue} from "./StateProvider";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./Footer";
 
 
 function App() {
@@ -32,25 +33,24 @@ function App() {
   return (
     <Router>
         <div className="app">
+        <Header /> 
           <Switch>
              <Route path="/game">
                   <Game />
               </Route>
-              <Route path="/checkout">
-                    <Header />              
+              <Route path="/checkout">        
                     <Checkout />
               </Route>
               <Route path="/login">
                     <Login />
               </Route>
               <Route path="/">
-                 <Header />
+                
                  <Home />
                
               </Route>
-             
-              
           </Switch>
+          <Footer />
         </div>
     </Router>
   );

@@ -1,11 +1,11 @@
 import React from 'react'
 import Modal from '../Modal'
-import Header from '../Header'
+
 
 function Game() {
     return (
         <div>
-            <Header />
+           
             <Modal 
                 id="12321391"
                 title="Oculus Quest"
